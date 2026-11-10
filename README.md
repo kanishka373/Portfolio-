@@ -17,7 +17,7 @@
 
 ## About
 
-Hi, I'm **Kanishka**, a final-year Computer Science Engineering student at **Rayat Bahra University** (graduating 2027). I enjoy understanding how applications work, solving problems and learning by building. This repository contains the source code of my personal portfolio website.
+Hi, I'm **Kanishka**, a final-year Computer Science Engineering . I enjoy understanding how applications work, solving problems and learning by building. This repository contains the source code of my personal portfolio website.
 
 ## Preview
 
