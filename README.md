@@ -24,6 +24,10 @@ Hi, I'm **Kanishka**, a final-year B.Tech Computer Science Engineering student (
 <p align="center">
   <img src="images/preview.png" alt="Portfolio preview" width="800">
 </p>
+<p align="center">
+<img src="images/projects.png" alt="Portfolio projects" width="800">
+</p>
+
 
 ## Features
 
