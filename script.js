@@ -189,29 +189,26 @@ document.getElementById('projectList').innerHTML = projects.map((p, i) => `
   </article>
 `).join('');
 
-/* ---------- CERTIFICATIONS ---------- */
-// File mil jaye toh us entry mein file wali line ka // hata do (aur issuer ke baad comma laga do).
-// Saal dikhana ho toh year: '2025' add kar sakti ho, sirf jo sach ho.
 const certificates = [
   {
     name: 'Data Structures & Algorithms',
     issuer: 'Simplilearn'
-    // file: 'certificates/simplilearn-dsa.pdf'
+  
   },
   {
     name: 'HTML, CSS & Bootstrap',
     issuer: 'Great Learning'
-    // file: 'certificates/greatlearning-html-css-bootstrap.pdf'
+    
   },
   {
     name: 'SQL (Intermediate)',
     issuer: 'HackerRank'
-    // file: 'certificates/hackerrank-sql-intermediate.pdf'
+   
   },
   {
     name: 'Python for Data Science',
     issuer: 'IBM'
-    // file: 'certificates/ibm-python-data-science.pdf'
+    
   }
 ];
 
