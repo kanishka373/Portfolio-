@@ -1,5 +1,4 @@
-/* ================= VARIABLES ================= */
-:root {
+.root{
   --pink: #ff2d95;
   --pink-soft: #ff7ac6;
   --lavender: #c9a7ff;
@@ -9,7 +8,6 @@
   --glass-border: rgba(255, 255, 255, 0.18);
 }
 
-/* ================= BASE ================= */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -37,7 +35,6 @@ a {
   text-decoration: none;
 }
 
-/* ================= BACKGROUND (auto animated) ================= */
 .orb {
   position: fixed;
   z-index: -1;
@@ -74,7 +71,6 @@ a {
   to   { transform: translate(40px, -50px) scale(1.15); }
 }
 
-/* ================= NAVBAR ================= */
 .navbar {
   position: fixed;
   top: 16px;
@@ -144,7 +140,6 @@ a {
   border-radius: 2px;
 }
 
-/* ================= HERO ================= */
 .hero {
   min-height: 100vh;
   width: min(1100px, 92%);
@@ -193,11 +188,9 @@ h1 {
   line-height: 1.8;
   color: var(--muted);
 }
-
-/* ================= BUTTONS ================= */
-.hero-btns {
+.hero-btns{
   display: flex;
-  justify-content: center;
+justify-content: center;
   flex-wrap: wrap;
   gap: 16px;
   margin-bottom: 28px;
@@ -293,7 +286,6 @@ h1 {
   height: 20px;
 }
 
-/* ================= SECTIONS ================= */
 .section {
   width: min(1100px, 92%);
   margin: 0 auto;
@@ -317,7 +309,6 @@ h1 {
   font-size: clamp(2rem, 4vw, 2.8rem);
 }
 
-/* ================= SKILLS ================= */
 .skill-groups {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -379,7 +370,6 @@ h1 {
   font-size: 0.75rem;
 }
 
-/* ================= PROJECT CARDS ================= */
 .p-card {
   position: relative;
   display: grid;
@@ -510,7 +500,7 @@ h1 {
   box-shadow: 0 0 18px rgba(255, 45, 149, 0.5);
 }
 
-/* ================= EDUCATION ================= */
+
 .edu-card {
   padding: 32px;
   background: rgba(32, 10, 52, 0.55);
@@ -525,7 +515,6 @@ h1 {
   margin-bottom: 18px;
 }
 
-/* ================= HIGHLIGHTS ================= */
 .stat-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -566,7 +555,6 @@ h1 {
   color: var(--muted);
 }
 
-/* ================= CONTACT ================= */
 .contact-card {
   padding: 56px 40px;
   text-align: center;
@@ -656,7 +644,6 @@ a.c-tile:hover {
   gap: 16px;
 }
 
-/* ================= FOOTER ================= */
 .footer {
   display: flex;
   justify-content: space-between;
@@ -680,7 +667,6 @@ a.c-tile:hover {
   color: var(--pink-soft);
 }
 
-/* ================= SCROLL REVEAL ================= */
 .js .reveal {
   opacity: 0;
   transform: translateY(40px);
@@ -692,7 +678,6 @@ a.c-tile:hover {
   transform: none;
 }
 
-/* ================= RESPONSIVE ================= */
 @media (max-width: 900px) {
   .menu-btn {
     display: flex;
@@ -754,7 +739,6 @@ a.c-tile:hover {
     text-align: center;
   }
 }
-/* ================= CERTIFICATIONS ================= */
 .cert-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -810,7 +794,7 @@ a.c-tile:hover {
   align-self: flex-start;
   margin-top: 12px;
 }
-/* ================= PROJECT ICONS ================= */
+
 .p-head {
   display: flex;
   align-items: center;

@@ -1,7 +1,5 @@
-// JS chalne par hi reveal animation start hogi (warna content visible rahega)
-document.documentElement.classList.add('js');
 
-/* ---------- NAVBAR (mobile menu) ---------- */
+document.documentElement.classList.add('js');
 const menuBtn = document.getElementById('menuBtn');
 const navLinks = document.getElementById('navLinks');
 
@@ -10,9 +8,6 @@ navLinks.querySelectorAll('a').forEach((link) => {
   link.addEventListener('click', () => navLinks.classList.remove('open'));
 });
 
-/* ---------- SKILLS DATA ---------- */
-// icon: icons/ folder ki file ka path. Jiska icon nahi hai wahan sirf naam dikhega.
-// Naye icons download kiye hain toh us skill mein icon: 'icons/naam.svg' add kar do.
 const skillGroups = [
   {
     title: 'Languages',
@@ -220,7 +215,6 @@ const certificates = [
   }
 ];
 
-// array khaali ho toh section aur navbar link dikhenge hi nahi
 if (certificates.length) {
   document.getElementById('certificates').hidden = false;
   document.getElementById('certNav').hidden = false;
@@ -236,8 +230,6 @@ if (certificates.length) {
   `).join('');
 }
 
-/* ---------- HIGHLIGHTS (real numbers only) ---------- */
-// Databases: MongoDB, MySQL, PostgreSQL, SQLite = 4
 const stats = [
   { value: 6,    label: 'Projects Built' },
   { value: 4,    label: 'Databases Used' },
@@ -254,7 +246,7 @@ document.getElementById('statList').innerHTML = stats.map((s) => `
   </div>
 `).join('');
 
-// number 0 se upar tak count hota hai (sirf jab screen pe aaye)
+
 function countUp(el) {
   const target = parseFloat(el.dataset.value);
   const decimals = parseInt(el.dataset.decimals, 10);
@@ -269,8 +261,6 @@ function countUp(el) {
   requestAnimationFrame(frame);
 }
 
-/* ---------- SCROLL REVEAL ---------- */
-// Ye sabse neeche rehna chahiye, taaki upar bane saare .reveal elements pakad le
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     if (!entry.isIntersecting) return;
